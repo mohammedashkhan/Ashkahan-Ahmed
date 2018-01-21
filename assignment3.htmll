@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ASA company</title>
+	<link rel="stylesheet" href="CSS/bootstrap.min.CSS">
+	<link rel="stylesheet" href="CSS/styles.CSS">
+	<link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type="text/css" >
+	<link href="http://fonts.googleapis.com/css?family=Lora" rel="stylesheet" type="text/css">
+	<style>
+		body{
+			font-size: 16px;
+			color: #fff;
+			background-color: #61122f;
+			font-family: 'Oxygen', sans-serif;
+		}
+
+#header-nav{
+
+	background-color: #f6b319;
+	border-radius: 0;
+    border: 0;;
+
+}
+
+  #logo-nav{
+  	background-color: url('..file:///media/ashkhan/ADIL/WhatsApp Images/asa.jpg') no-repeat
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+  }
+
+ .navbar-brand{
+ 	padding-top: 25px;
+ }
+ .navbar-brand h1{
+ 	font-family: 'Lora',serif;
+ 	color: #557c3e;
+ 	font-size: 1.5em;
+ 	text-transform: uppercase;
+ 	font-weight: bold;
+ 	text-shadow: 1px 1px 1px #222;
+ 	margin-top: 0;
+ 	margin-bottom: 0;
+ 	margin-height:.75;
+ } 
+    .navbar-brand a:hover,navbar-brand a:focus {
+    	text-decoration:none;
+    }
+    }
+
+  .navbar-brand p {
+  	color: #000;
+  	text-transform: uppercase;
+  	font-size: .6em;
+  	margin-top: .12em;
+  }
+
+   .navbar-brand p img{
+   	height: 120px;
+   }
+   .navbar.header button.navbar-toggle, .navbar-header .icon-bar {
+   	border: 1px solid #61122f;
+   }
+    .navbar-header button.navbar-toggle{
+    	clear: both;
+    	margin-top: -30px;
+    }
+  .navbar-brand p span{
+  	vertical-align: middle;
+  }
+ 	</style>
+</head>
+<body>
+<header>
+	<nav id="header-nav" class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<a href="assignment2.html" class="pull-left">
+					<div id="logo-img" alt="logo-img"></div>
+				</a>
+<div class="navbar-brand">
+	<h1>ASA Company Private Limited</h1>
+	<p>
+		<img src="file:///media/ashkhan/ADIL/WhatsApp Images/asa.jpg" alt="Indian Certification">
+		<span>Indian Certification</span>
+	</p>
+</div>
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+</button>
+			</div>
+
+			<div id="collapsable-nav" class="collapse navbar-collapse">
+				<ul id="nav-list" class="nav navbar-nav navbar-right">
+					<li>
+						<a href="menu-categories.html">
+							<span class="glyphicon glyphicon-glass"></span><br class="hidden-xs">Menu</a>
+						</li>
+
+						<li>
+						<a href="#">
+							<span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">About Company</a>
+						</li>
+
+						<li>
+						<a href="#">
+							<span class="glyphicon glyphicon-certification"></span><br class="hidden-xs">Awards of Comapny</a>
+						</li>
+                      	<li>
+						<a href="#">
+							<span class="glyphicon glyphicon-envelope"></span><br class="hidden-xs">Mail to Company</a>
+						</li>
+					</li>
+			</div>
+		</div>
+		</nav>
+</header>
+<footer class="panel-footer">
+	<div class="container">
+		<div class="row">
+			<section id="hours" class="col-sm-4">
+				<span>Hours:</span><br>
+				Sunday to saturday:9:00AM - 5:00PM<br>
+				Fri:11:25am - 2:30PM<br>
+				Saturday Evenig Closed
+				<hr class="visible-xs">
+			</section>
+			<section id="Address" class="col-sm-4">
+				<span>Address:</span><br>
+				66/22 High Road Pernambut-Vellore District<br>
+				Tamilnadu,India<br>
+				Saturday Evenig Closed
+				<hr class="visible-xs">
+			</section>
+			<section id="testimonials" class="col-sm-4">
+				<p> This is one of the best company in the vellore district.In this company all leather product available.so that we can buy the some original product!</p>
+				<p>Welcome to All for ASA company of leather!</p>
+			</section>
+		</div> 
+	</div>
+</body>
+</html>
